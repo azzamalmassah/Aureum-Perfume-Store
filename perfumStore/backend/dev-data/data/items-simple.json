@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "name": "Dior Sauvage",
+    "brand": "Dior",
+    "category": "Eau de Toilette",
+    "gender": "Men",
+    "description": "A fresh, spicy and woody fragrance inspired by wide-open spaces.",
+    "price": 120,
+    "sizes": ["60ml", "100ml"],
+    "rating": 4.9,
+    "stock": 25,
+    "images": ["/images/sauvage1.jpg", "/images/sauvage2.jpg"],
+    "components": [
+      "Bergamot",
+      "Pepper",
+      "Lavender",
+      "Patchouli",
+      "Ambroxan",
+      "Cedar"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bleu de Chanel",
+    "brand": "Chanel",
+    "category": "Eau de Parfum",
+    "gender": "Men",
+    "description": "An intense, aromatic-woody fragrance with refined freshness.",
+    "price": 150,
+    "sizes": ["50ml", "100ml", "150ml"],
+    "rating": 4.8,
+    "stock": 30,
+    "images": ["/images/bleu1.jpg", "/images/bleu2.jpg"],
+    "components": [
+      "Lemon",
+      "Grapefruit",
+      "Ginger",
+      "Nutmeg",
+      "Sandalwood",
+      "Cedar"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Versace Eros",
+    "brand": "Versace",
+    "category": "Eau de Toilette",
+    "gender": "Men",
+    "description": "Fresh, sweet, and slightly minty fragrance symbolizing love and seduction.",
+    "price": 95,
+    "sizes": ["50ml", "100ml"],
+    "rating": 4.7,
+    "stock": 40,
+    "images": ["/images/eros1.jpg", "/images/eros2.jpg"],
+    "components": [
+      "Mint",
+      "Green Apple",
+      "Tonka Bean",
+      "Ambroxan",
+      "Cedar",
+      "Oak Moss"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "YSL Black Opium",
+    "brand": "Yves Saint Laurent",
+    "category": "Eau de Parfum",
+    "gender": "Women",
+    "description": "A warm and spicy feminine fragrance with sweet coffee and vanilla notes.",
+    "price": 130,
+    "sizes": ["50ml", "90ml"],
+    "rating": 4.8,
+    "stock": 18,
+    "images": ["/images/blackopium1.jpg"],
+    "components": [
+      "Pear",
+      "Pink Pepper",
+      "Coffee",
+      "Jasmine",
+      "Vanilla",
+      "Patchouli"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Burberry Her",
+    "brand": "Burberry",
+    "category": "Eau de Parfum",
+    "gender": "Women",
+    "description": "A fruity floral fragrance that captures the youthful spirit of London.",
+    "price": 110,
+    "sizes": ["50ml", "100ml"],
+    "rating": 4.6,
+    "stock": 22,
+    "images": ["/images/burberryher1.jpg"],
+    "components": [
+      "Strawberry",
+      "Blackberry",
+      "Jasmine",
+      "Violet",
+      "Amber",
+      "Musk"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "category": "Eau de Parfum",
+    "gender": "Women",
+    "description": "A rich white floral fragrance that transports you to a blooming garden.",
+    "price": 125,
+    "sizes": ["50ml", "100ml"],
+    "rating": 4.9,
+    "stock": 15,
+    "images": ["/images/guccibloom1.jpg"],
+    "components": ["Rangoon Creeper", "Jasmine Bud", "Tuberose"]
+  },
+  {
+    "id": 7,
+    "name": "Armani Code",
+    "brand": "Giorgio Armani",
+    "category": "Eau de Parfum",
+    "gender": "Men",
+    "description": "An elegant, seductive men's fragrance with vanilla and tonka accents.",
+    "price": 135,
+    "sizes": ["60ml", "110ml"],
+    "rating": 4.8,
+    "stock": 27,
+    "images": ["/images/armanicode1.jpg"],
+    "components": [
+      "Lemon",
+      "Bergamot",
+      "Lavender",
+      "Star Anise",
+      "Tonka Bean",
+      "Vanilla"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mont Blanc Legend",
+    "brand": "Mont Blanc",
+    "category": "Eau de Toilette",
+    "gender": "Men",
+    "description": "A fresh fougère fragrance with a balance of aromatic and woodsy notes.",
+    "price": 80,
+    "sizes": ["50ml", "100ml"],
+    "rating": 4.5,
+    "stock": 45,
+    "images": ["/images/legend1.jpg"],
+    "components": [
+      "Lavender",
+      "Pineapple",
+      "Oakmoss",
+      "Tonka Bean",
+      "Sandalwood"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Carolina Herrera Good Girl",
+    "brand": "Carolina Herrera",
+    "category": "Eau de Parfum",
+    "gender": "Women",
+    "description": "A bold modern feminine scent in an iconic stiletto bottle.",
+    "price": 140,
+    "sizes": ["50ml", "80ml"],
+    "rating": 4.9,
+    "stock": 17,
+    "images": ["/images/goodgirl1.jpg"],
+    "components": ["Almond", "Coffee", "Jasmine Sambac", "Cocoa", "Tonka Bean"]
+  },
+  {
+    "id": 10,
+    "name": "Tom Ford Ombre Leather",
+    "brand": "Tom Ford",
+    "category": "Eau de Parfum",
+    "gender": "Unisex",
+    "description": "A warm, leathery, spicy fragrance with a smooth unisex appeal.",
+    "price": 210,
+    "sizes": ["50ml", "100ml"],
+    "rating": 4.9,
+    "stock": 10,
+    "images": ["/images/ombreleather1.jpg"],
+    "components": ["Cardamom", "Leather", "Patchouli", "Amber"]
+  }
+]
