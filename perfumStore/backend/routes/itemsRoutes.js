@@ -14,7 +14,7 @@ import upload from "../utils/config/cloudinary.js";
 
 const router = express.Router();
 router.route("/top-5-cheap").get(aliasTopItems, getAllItems);
-router.route("/purchase").post(protect, restrictTo("admin"), purchaseItems);
+router.route("/purchase").post(protect, purchaseItems);
 router
   .route("/:id")
   .get(getItem)

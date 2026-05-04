@@ -47,7 +47,12 @@ app.use(
 app.use(cookieParser());
 app.use(express.json({ limit: "10kb" }));
 app.set("query parser", "extended");
-app.use(mongoSanitize());
+app.use((req, res, next) => {
+  if (req.body) mongoSanitize.sanitize(req.body);
+  if (req.params) mongoSanitize.sanitize(req.params);
+  if (req.query) mongoSanitize.sanitize(req.query);
+  next();
+});
 // app.set("query parser", (str) => qs.parse(str));
 const limiter = rateLimit({
   max: 100,

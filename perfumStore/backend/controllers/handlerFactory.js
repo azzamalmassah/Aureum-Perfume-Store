@@ -1,6 +1,6 @@
 import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/AppError.js";
-import { apiFeatuers } from "../utils/apiFeatuers.js";
+import { ApiFeatures } from "../utils/apiFeatuers.js";
 import { v2 as cloudinary } from "cloudinary";
 
 // Helper to extract public_id from Cloudinary URL
@@ -111,7 +111,7 @@ export const getAll = (Model) =>
     const defaults = res.locals.aliasQuery || {};
     const effectiveQuery = { ...defaults, ...(req.query || {}) };
     //EXECUTE QUERY
-    const features = new apiFeatuers(Model.find(), effectiveQuery)
+    const features = new ApiFeatures(Model.find(), effectiveQuery)
       .filter()
       .sorting()
       .limiting()
